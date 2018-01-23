@@ -1,11 +1,11 @@
-function foo()
-{
-        var bar;
-        quux=1;
-	var zip = function()
-        {
-                var quux = 2;
-		bar = true;
-        }
-	return zip;
+function foo(){
+    var bar = 1;
+    quux = 2;
+
+    function zip(){
+        var quux = 1;
+        bar = true;
+    }
+
+    return zip;
 }
